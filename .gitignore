@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Databases and local state
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+data/
+backups/
+
+# Dependency and build output
+node_modules/
+dist/
+build/
+.next/
+.cache/
+coverage/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Do not archive production source or deployments here
+*.tar
+*.tar.gz
+*.zip
+deploy/
+deployment/
+server/
+production/
